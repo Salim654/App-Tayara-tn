@@ -45,7 +45,7 @@ public class AdapterPosts extends RecyclerView.Adapter<AdapterPosts.MyHolder>{
 
      holder.posttitre.setText(titre);
      holder.post_desc.setText(description);
-     holder.post_prix.setText(price+" TD");
+     holder.post_prix.setText(price+" DT");
      holder.postphone.setText(phone);
 
         try{
