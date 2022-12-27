@@ -15,7 +15,7 @@
         <!-- TODO: Update blank fragment layout -->
 
         <LinearLayout
-            android:padding="30dp"
+            android:padding="10dp"
             android:background="@drawable/customprofile"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -23,25 +23,26 @@
             android:orientation="vertical">
             <TextView
 
-                android:textSize="50dp"
+                android:textSize="40dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textColor="@color/tayara"
-                android:text="Info : "/>
+                android:layout_gravity="center"
+                android:text="Profile"/>
             <LinearLayout
-                android:layout_marginTop="50dp"
+                android:layout_marginTop="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <TextView
 
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Email : "/>
                 <TextView
                     android:id="@+id/emailp"
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
@@ -53,13 +54,13 @@
                 android:orientation="horizontal">
                 <TextView
 
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:text="Phone : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView
                     android:id="@+id/phonep"
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:text="Phone"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
@@ -70,13 +71,13 @@
                 android:layout_height="wrap_content"
                 android:orientation="horizontal">
                 <TextView
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:text="Full Name : "
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"/>
                 <TextView
                     android:id="@+id/namep"
-                    android:textSize="30dp"
+                    android:textSize="20dp"
                     android:text="Full Name"
                     android:textStyle="bold"
                     android:layout_width="wrap_content"
