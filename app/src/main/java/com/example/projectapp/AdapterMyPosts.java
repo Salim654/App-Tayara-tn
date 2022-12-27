@@ -59,7 +59,7 @@ public class AdapterMyPosts extends RecyclerView.Adapter<AdapterMyPosts.MyHolder
 
         holder.posttitre.setText(titre);
         holder.post_desc.setText(description);
-        holder.post_prix.setText(price+" TD");
+        holder.post_prix.setText(price+" DT");
         holder.postphone.setText(phone);
         holder.btnsupp.setOnClickListener(new View.OnClickListener() {
             @Override
