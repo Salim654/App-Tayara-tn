@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPostActivity"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:layout_margin="2dp"
+    >
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Title"
+        android:id="@+id/titlep"
+        android:padding="10dp"
+        android:singleLine="true"
+
+        />
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/imgPost"
+
+        />
+    <Button
+        android:backgroundTint="@color/tayara"
+        android:id="@+id/select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Description"
+        android:id="@+id/desc"
+        android:minHeight="120dp"
+        android:gravity="start"
+        android:inputType="textMultiLine"
+        android:padding="10dp"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Price"
+        android:id="@+id/prix"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:inputType="number"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter PHone"
+        android:id="@+id/phone"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:inputType="number"
+
+        />
+    <Button
+        android:backgroundTint="@color/tayara"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload"
+        android:layout_gravity="end"
+        android:id="@+id/upbtn"
+        />
+
+
+</LinearLayout>
+</ScrollView>

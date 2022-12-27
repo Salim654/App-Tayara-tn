@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="480dp"
+    android:orientation="vertical"
+    android:layout_marginBottom="5dp"
+    android:padding="20dp"
+    android:backgroundTint="@color/gray"
+    android:background="@drawable/customborder"
+
+    >
+    <ImageView
+        android:id="@+id/postimg"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/customborder"
+
+        />
+
+        <TextView
+            android:id="@+id/tp"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Titre"
+            android:textSize="28dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="5dp"
+            />
+
+        <TextView
+            android:id="@+id/post_prix"
+            android:gravity="left"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:text="Price"
+            android:textSize="25dp"
+            android:textColor="@color/red"
+            />
+        <TextView
+            android:id="@+id/post_phone"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:text="Phone"
+            />
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/post_desc"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:text="Description"
+            android:textSize="15dp"
+            />
+
+        <Button
+            android:layout_marginTop="10dp"
+            android:id="@+id/btndial"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Dial"
+            android:backgroundTint="@color/tayara"
+            />
+    </LinearLayout>
+
+

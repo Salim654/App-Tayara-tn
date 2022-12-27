@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/addpost"
+        android:title="Add Post"
+        />
+    <item android:id="@+id/searchp"
+       android:icon="@drawable/ic_search_black"
+        android:title="Search"
+        app:showAsAction="always"
+        app:actionViewClass="android.widget.SearchView" />
+
+
+    <item android:id="@+id/logout"
+        android:title="Log out"
+        />
+</menu>
